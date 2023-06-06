@@ -43,8 +43,8 @@ dtools.update_sly_url_dict({project_id: download_sly_url})
 # preset fields
 custom_data = {
     # required fields
-    "name": "MinneApple",
-    "fullname": "MinneApple: A Benchmark Dataset for Apple Detection and Segmentation",
+    "name": "LaboroTomato",
+    "fullname": "Laboro Tomato: Instance segmentation dataset",
     "cv_tasks": [
         "semantic segmentation",
         "object detection",
@@ -52,20 +52,20 @@ custom_data = {
     ],
     "annotation_types": ["instance segmentation"],
     "industries": ["agriculture"],
-    "release_year": 2019,
-    "homepage_url": "https://conservancy.umn.edu/handle/11299/206575",
-    "license": "Attribution-NonCommercial-ShareAlike 3.0 United States",
-    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
-    "preview_image_id": 185079,
-    "github": "dataset-ninja/minne-apple",
-    "github_url": "https://github.com/dataset-ninja/minne-apple",
-    "citation_url": "https://conservancy.umn.edu/handle/11299/206575",
+    "release_year": 2020,
+    "homepage_url": "https://github.com/laboroai/LaboroTomato#readme",
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "preview_image_id": 197754,
+    "github": "dataset-ninja/laboro-tomato",
+    "github_url": "https://github.com/dataset-ninja/laboro-tomato",
     "download_sly_url": download_sly_url,
     # optional fields
-    "download_original_url": "https://conservancy.umn.edu/handle/11299/206575",
-    "paper": "https://ieeexplore.ieee.org/document/8954630",
-    "organization_name": "University of Minnesota Robotic Sensor Network Laboratory",
-    "organization_url": "https://rsn.umn.edu/",
+    "download_original_url": "https://github.com/laboroai/LaboroTomato#download-dataset",
+    # "paper": "https://ieeexplore.ieee.org/document/8954630",
+    # "citation_url": "https://github.com/laboroai/LaboroTomato#readme",
+    "organization_name": "Laboro.AI Inc.",
+    "organization_url": "https://laboro.ai/",
     # "tags": [],
 }
 api.project.update_custom_data(project_id, custom_data)
