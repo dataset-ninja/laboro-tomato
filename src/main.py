@@ -56,7 +56,7 @@ custom_data = {
     "homepage_url": "https://github.com/laboroai/LaboroTomato#readme",
     "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "preview_image_id": 197754,
+    "preview_image_id": 199276,
     "github": "dataset-ninja/laboro-tomato",
     "github_url": "https://github.com/dataset-ninja/laboro-tomato",
     "download_sly_url": download_sly_url,
