@@ -5,7 +5,7 @@
             "name": "src/main.py",
             "type": "python",
             "request": "launch",
-            "program": "src/main.py",
+            "program": "src/convert.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "env": {

@@ -1,5 +1,5 @@
 import supervisely as sly
-from dataset_tools.convert.minneapple.main import to_supervisely
+from dataset_tools.convert.laborotomato.main import to_supervisely
 
 api = sly.Api.from_env()
 project_id = to_supervisely(api)
