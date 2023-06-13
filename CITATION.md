@@ -4,7 +4,7 @@ If you make use of the LaboroTomato data, please cite the following reference:
 @misc{LaboroTomato,
   author = "laboroai",
   title = "LaboroTomato: instance segmentation dataset",
-  year={2020},
+  year = {2020},
   howpublished = "https://github.com/laboroai/LaboroTomato#readme"
 }
 ```
