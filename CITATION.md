@@ -1,11 +1,11 @@
 If you make use of the LaboroTomato data, please cite the following reference:
 
-``` bibtex 
+``` bibtex
 @misc{LaboroTomato,
-	author = "TO BE FILLED MANUALLY!",
+	author = "laboroai",
 	title = "LaboroTomato: instance segmentation dataset",
 	year = {2020},
-	howpublished = "https://github.com/laboroai/LaboroTomato#readme"
+	url = "https://github.com/laboroai/LaboroTomato#readme"
 }
 ```
 
