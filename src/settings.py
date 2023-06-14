@@ -38,7 +38,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "http://assets.laboro.ai/laborotomato/laboro_tomato.zip"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {"tomato": [208, 2, 27]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
