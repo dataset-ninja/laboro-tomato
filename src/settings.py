@@ -6,7 +6,7 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, License
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "LaboroTomato"
-PROJECT_NAME_FULL: str = "LaboroTomato: instance segmentation dataset"
+PROJECT_NAME_FULL: str = "LaboroTomato: Instance Segmentation Dataset"
 
 ##################################
 # * After uploading to instance ##
