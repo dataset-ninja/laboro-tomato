@@ -1,4 +1,4 @@
-**LaboroTomato** (LaboroTomato: instance segmentation dataset) is a dataset for instance segmentation, object detection, and semantic segmentation tasks. It is used in the agriculture industry.
+**LaboroTomato: Instance Segmentation Dataset** is a dataset for instance segmentation, object detection, and semantic segmentation tasks. It is used in the agriculture industry.
 
 The dataset consists of 804 images with 10610 labeled objects belonging to 1 single class (*tomato*).
 
