@@ -42,10 +42,11 @@ def create_ann(img_name):
             points.append(sly.PointLocation(segm_ann[i + 1], segm_ann[i]))
         polygon = sly.Polygon(points, interior=[])
 
-        tag_name = g.category_id_to_name[tag_ids[idx]]
-        tag = sly.Tag(g.meta.get_tag_meta(tag_name))
+        cls_name = g.category_id_to_name[tag_ids[idx]]
 
-        label = sly.Label(polygon, g.obj_class, tags=sly.TagCollection([tag]))
+        obj_class = g.cls_to_obj_classes[cls_name]
+
+        label = sly.Label(polygon, obj_class)
         labels.append(label)
 
     return sly.Annotation(img_size=img_size, labels=labels)

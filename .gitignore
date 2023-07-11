@@ -7,7 +7,7 @@ supervisely
 data/
 debug_data/
 app_cache/
-app_data/
+APP_DATA/
 
 /secret_debug.env
 venv

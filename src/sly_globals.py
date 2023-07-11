@@ -47,27 +47,22 @@ anns_folder = "annotations"
 batch_size = 30
 class_name = "tomato"
 
-obj_class = sly.ObjClass(class_name, sly.Polygon)
-obj_class_collection = sly.ObjClassCollection([obj_class])
-
-tag_meta_b_fully_ripened = sly.TagMeta("b_fully_ripened", sly.TagValueType.NONE)
-tag_meta_b_half_ripened = sly.TagMeta("b_half_ripened", sly.TagValueType.NONE)
-tag_meta_b_green = sly.TagMeta("b_green", sly.TagValueType.NONE)
-tag_meta_l_fully_ripened = sly.TagMeta("l_fully_ripened", sly.TagValueType.NONE)
-tag_meta_l_half_ripened = sly.TagMeta("l_half_ripened", sly.TagValueType.NONE)
-tag_meta_l_green = sly.TagMeta("l_green", sly.TagValueType.NONE)
-
-tag_metas = [
-    tag_meta_b_fully_ripened,
-    tag_meta_b_half_ripened,
-    tag_meta_b_green,
-    tag_meta_l_fully_ripened,
-    tag_meta_l_half_ripened,
-    tag_meta_l_green,
+class_names = [
+    "b_fully_ripened",
+    "b_half_ripened",
+    "b_green",
+    "l_fully_ripened",
+    "l_half_ripened",
+    "l_green",
 ]
 
-tag_meta_collection = sly.TagMetaCollection(tag_metas)
-meta = sly.ProjectMeta(obj_classes=obj_class_collection, tag_metas=tag_meta_collection)
+obj_classes = [sly.ObjClass(class_name, sly.Polygon) for class_name in class_names]
+
+cls_to_obj_classes = {cls_name: obj_class for cls_name, obj_class in zip(class_names, obj_classes)}
+
+
+# tag_meta_collection = sly.TagMetaCollection(tag_metas)
+meta = sly.ProjectMeta(obj_classes=obj_classes)
 
 # storage_dir = sly.app.get_data_dir()
 storage_dir = "./APP_DATA"
