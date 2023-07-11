@@ -43,15 +43,15 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
     "b_fully_ripened": [208, 2, 27],
     "b_half_ripened": [248, 231, 28],
     "b_green": [126, 211, 33],
-    "l_fully_ripened": [230, 25, 75],
+    "l_fully_ripened": [250, 190, 212],
     "l_half_ripened": [255, 250, 200],
-    "l_green": [60, 180, 75],
+    "l_green": [170, 255, 195],
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = None
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Laboro.AI Inc"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Laboro.AI Inc, Japan"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://laboro.ai/"
 TAGS: List[str] = None
 
