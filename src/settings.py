@@ -53,12 +53,12 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = {
-    "b_fully_ripened": [240, 50, 230],
-    "b_half_ripened": [0, 0, 128],
+    "b_fully_ripened": [255, 0, 255],
+    "b_half_ripened": [0, 0, 255],
     "b_green": [0, 255, 255],
-    "l_fully_ripened": [128, 0, 0],
-    "l_half_ripened": [128, 128, 0],
-    "l_green": [145, 30, 180],
+    "l_fully_ripened": [255, 20, 147],
+    "l_half_ripened": [30, 144, 255],
+    "l_green": [127, 255, 212],
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
