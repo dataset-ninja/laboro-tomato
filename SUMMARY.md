@@ -6,4 +6,4 @@ Images in the LaboroTomato dataset have pixel-level instance segmentation annota
 
 Here is the visualized example grid with annotations:
 
-<img src="https://github.com/dataset-ninja/laboro-tomato/raw/main/visualizations/side_annotations_grid.png">
+[Horizontal Grid](https://github.com/dataset-ninja/laboro-tomato/raw/main/visualizations/horizontal_grid.webm)
