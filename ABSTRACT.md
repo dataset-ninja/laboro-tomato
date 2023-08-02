@@ -6,4 +6,4 @@ Each tomato is divided into 2 categories according to size (normal size *b* and 
 * *half_ripened* - greenish and needs time to ripen. Filled with red color on 30-89%*
 * *green* - complitely green/white, sometimes with rare red parts. Filled with red color on 0-30%*
 
-  [examplephoto](https://github.com/laboroai/LaboroTomatoDatasets/raw/master/examples/laboro_tomato_exp1.png)
+  ![image](https://github.com/supervisely/supervisely/assets/78355358/4bbbf545-fe34-4bb3-819e-558153910914)
