@@ -15,6 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "LaboroTomato"
 PROJECT_NAME_FULL: str = "LaboroTomato: Instance Segmentation Dataset"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 PROJECT_NAME_FULL = PROJECT_NAME if PROJECT_NAME_FULL is None else PROJECT_NAME_FULL
 ##################################
@@ -113,6 +114,7 @@ def get_settings():
 
     settings = {
         "project_name": PROJECT_NAME,
+        "hide_dataset": HIDE_DATASET,        
         "license": LICENSE,
         "applications": APPLICATIONS,
         "category": CATEGORY,
