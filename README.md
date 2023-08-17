@@ -1,3 +1,3 @@
-# LaboroTomato: instance segmentation dataset
+# LaboroTomato: Instance Segmentation Dataset
 
-LaboroTomato is a dataset for instance segmentation, object detection, semantic segmentation tasks.
+LaboroTomato is a dataset for instance segmentation, semantic segmentation, object detection tasks.
