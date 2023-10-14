@@ -21,7 +21,7 @@ PROJECT_NAME_FULL = PROJECT_NAME if PROJECT_NAME_FULL is None else PROJECT_NAME_
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_NC_SA_4_0()
+LICENSE: License = License.CC_BY_NC_SA_4_0(source_url="https://github.com/laboroai/LaboroTomato#licence")
 APPLICATIONS: List[Industry] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
