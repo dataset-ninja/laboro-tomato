@@ -36,7 +36,7 @@ RELEASE_DATE: Optional[str] = "2020-07-14"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://github.com/laboroai/LaboroTomato#readme"
+HOMEPAGE_URL: str = "https://github.com/laboroai/LaboroTomato"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 1636071
