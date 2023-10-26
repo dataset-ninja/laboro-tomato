@@ -66,6 +66,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Roman Trigubenko", "hfujihara"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://github.com/Etoye"]
 
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Laboro.AI Inc, Japan"
@@ -136,6 +137,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
