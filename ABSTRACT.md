@@ -1,4 +1,4 @@
-**Laboro Tomato** is an image dataset of growing tomatoes at different stages of their ripening which is designed for object detection and instance segmentation tasks. Authors also provided two subsets of tomatoes separated by size. Dataset was gathered at a local farm with two separate cameras with its different resolution and image quality.
+The **Laboro Tomato** dataset comprises images capturing tomatoes in various stages of ripening, tailored for tasks involving object detection and instance segmentation. Additionally, the dataset offers two distinct subsets categorized by tomato size. These images were acquired at a local farm, utilizing two separate cameras, each contributing to varying resolutions and image quality.
 
 Each tomato is divided into 2 categories according to size (normal size *b_* and cherry tomato *l_*) and 3 categories depending on the stage of ripening:
 
