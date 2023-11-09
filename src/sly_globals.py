@@ -21,7 +21,7 @@ logger = sly.logger
 # train_ds = os.environ["modal.state.train"]
 # test_ds = os.environ["modal.state.test"]
 
-datasets = ["Train", "Test"]
+datasets = ["train", "test"]
 
 # for ds in [train_ds, test_ds]:
 #     if len(ds) != 2:
