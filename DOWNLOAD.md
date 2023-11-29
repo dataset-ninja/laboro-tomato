@@ -1,6 +1,6 @@
 Dataset **LaboroTomato** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/x/z/d9/mJtpRDBAuV4G3bGk8cGLETZOKwQa5512pss6ukcL0pKFDrhQKFJc8Alc6c1JS4p82fW4trhIdgMIx9h73zAkKo85HQjEWAW4MCjAVBRTDLxyqvh2qKP4bvCWxHfv.tar)
+ [Download](https://www.dropbox.com/scl/fi/qcsi6v9t7p46uxp71tcll/laborotomato-DatasetNinja.tar?rlkey=mxzfs8dac5yc01gely0wa2zox&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
